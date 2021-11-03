@@ -9,7 +9,7 @@ namespace Mathematics {
             currentValue=overflowDirection==OverflowDirection.Left ?
                          unchecked(-2147483648-valueOffset)
                          : unchecked(2147483647+valueOffset);
-            Debug.Log(currentValue);
+            Debug.Log($"Overflow: {currentValue}");
         }
     }
 }
